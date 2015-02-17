@@ -1,0 +1,24 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Ports": [
+    {
+      "ContainerPort": "9000"
+    }
+  ],
+  "asd": 
+{
+  "Id": "Policy1424166844084",
+  "Statement": [
+    {
+      "Sid": "sdfsdfsd",
+      "Effect": "allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": "s3:DeleteBucket",
+      "Resource": "arn:aws:s3:::elasticbeanstalk-us-west-2-415926896195/*"
+    }
+  ]
+}
+}
+      
